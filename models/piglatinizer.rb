@@ -4,7 +4,7 @@ class PigLatinizer
   end
 
   def piglatinize(words)
-    array = @words.split(' ')
+    array = words.split(' ')
     array.each {|word|
     string = ""
     foundVowel = false
