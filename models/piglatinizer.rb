@@ -3,9 +3,9 @@ class PigLatinizer
   def initialize
   end
 
-  def piglatinize
-    array = @words.split(" ")
-    array.each {|word|
+  def piglatinize(word)
+    #array = @words.split(" ")
+    #array.each {|word|
       first = word.chars.first
       following = word.chars.shift
       if first == /[aeiou]/
@@ -13,6 +13,6 @@ class PigLatinizer
       else
         word = following + first + "ay"
       end
-    }
+    #}
   end
 end
