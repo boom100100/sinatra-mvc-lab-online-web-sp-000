@@ -1,4 +1,4 @@
-class PigLatinizer
+class Piglatinizer
   attr_accessor :words
   def initialize
   end
