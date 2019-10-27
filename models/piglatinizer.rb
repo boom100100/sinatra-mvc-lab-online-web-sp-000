@@ -24,7 +24,7 @@ class PigLatinizer
 
       first = string
       puts first
-      following = word[1..-1]
+      following = word[first.length-1..-1]
       puts following
       #following.slice!(0, 1)
       if first.match(/[aeiouAEIOU]/)
