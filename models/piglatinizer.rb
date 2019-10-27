@@ -33,7 +33,7 @@ class PigLatinizer
     puts following
       #following.slice!(0, 1)
     if first.match(/[aeiouAEIOU]/)
-      word = following + first + "way"
+      word = first + following + "way"
     else
       word = following + first + "ay"
     end
