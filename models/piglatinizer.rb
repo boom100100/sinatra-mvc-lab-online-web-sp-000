@@ -40,7 +40,7 @@ class PigLatinizer
       word = following + first + "ay"
     end
     resultArray << word
-    
+
     }
     puts resultArray
     sentence = array.join(" ")
