@@ -10,7 +10,7 @@ class PigLatinizer
 
 
     array.each {|word|
-      puts word
+      #puts word
 
 
     string = ""
@@ -42,7 +42,7 @@ class PigLatinizer
     resultArray << word
 
     }
-    puts resultArray
+    #puts resultArray
     sentence = resultArray.join(" ")
     sentence
   end
