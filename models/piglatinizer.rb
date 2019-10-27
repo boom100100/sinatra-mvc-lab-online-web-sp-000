@@ -22,7 +22,7 @@ class PigLatinizer
       }
     end
 
-      first = word[0]
+      first = string
       puts first
       following = word[1..-1]
       puts following
