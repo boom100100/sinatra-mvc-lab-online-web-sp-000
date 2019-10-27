@@ -10,7 +10,7 @@ class PigLatinizer
 
     array.each {|word|
       puts word
-      word.chars.each {|leter|
+      word.chars.each {|letter|
         puts letter
       }
 
