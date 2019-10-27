@@ -41,4 +41,7 @@ class PigLatinizer
     sentence = array.join(" ")
     sentence
   end
+
+  def split
+  end
 end
