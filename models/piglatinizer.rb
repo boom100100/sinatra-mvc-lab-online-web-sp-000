@@ -7,11 +7,12 @@ class PigLatinizer
     array = split(sentence)
     #array = sentence.split(" ")
     puts array
+    
     array.each {|word|
       puts word
+      word.chars.each {|leter|
+      puts letter
     }
-    array.each {|word|
-      puts word
 
     string = ""
     foundVowel = false
