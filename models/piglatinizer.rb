@@ -7,8 +7,8 @@ class PigLatinizer
     #array = @words.split(" ")
     #array.each {|word|
       first = word.chars.first
-      word[0] = ''
       following = word
+      following[0] = ''
       if first == /[aeiou]/
         word = following + first + "way"
       else
