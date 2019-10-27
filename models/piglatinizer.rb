@@ -5,6 +5,7 @@ class PigLatinizer
 
   def piglatinize(sentence) #words
     array = split(sentence)
+    resultArray = []
     #array = sentence.split(" ")
 
 
@@ -38,8 +39,10 @@ class PigLatinizer
     else
       word = following + first + "ay"
     end
-    puts word
+    resultArray << word
+    
     }
+    puts resultArray
     sentence = array.join(" ")
     sentence
   end
