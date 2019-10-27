@@ -6,6 +6,7 @@ class PigLatinizer
   def piglatinize(sentence) #words
     array = split(sentence)
     #array = sentence.split(" ")
+    puts array
     array.each {|word|
       puts word
     }
