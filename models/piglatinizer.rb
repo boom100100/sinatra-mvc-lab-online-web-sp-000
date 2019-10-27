@@ -17,6 +17,7 @@ class PigLatinizer
         break
       end
     }
+    puts "String: " + string
     if foundVowel && string.length == 0
       word.chars.each {|letter|
         puts "Vowels: " + letter
