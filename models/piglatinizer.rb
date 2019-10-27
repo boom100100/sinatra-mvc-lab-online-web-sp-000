@@ -11,6 +11,7 @@ class PigLatinizer
       puts word
     }
     array.each {|word|
+      puts word
 
     string = ""
     foundVowel = false
