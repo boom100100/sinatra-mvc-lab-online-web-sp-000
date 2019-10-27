@@ -6,6 +6,13 @@ class PigLatinizer
   def piglatinize(word)
     #array = @words.split(" ")
     #array.each {|word|
+    string = ""
+    word.each {|letter|
+      puts letter
+      if !letter.match(/aeiouAEIOU/)
+        string = string + letter
+      end
+    }
       first = word[0]
       puts first
       following = word[1..-1]
