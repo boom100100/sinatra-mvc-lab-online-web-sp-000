@@ -11,7 +11,7 @@ class PigLatinizer
       following = word[1..-1]
       puts following
       #following.slice!(0, 1)
-      if first == /[aeiou]/
+      if first == /[aeiouAEIOU]/
         word = following + first + "way"
       else
         word = following + first + "ay"
