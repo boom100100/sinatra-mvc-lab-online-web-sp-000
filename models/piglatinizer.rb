@@ -4,7 +4,8 @@ class PigLatinizer
   end
 
   def piglatinize(sentence) #words
-    array = sentence.split(' ')
+    array = sentence.split(" ")
+    puts array
     array.each {|word|
 
     string = ""
