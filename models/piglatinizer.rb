@@ -13,7 +13,7 @@ class PigLatinizer
         string = string + letter
       end
     }
-    if string.length = 0
+    if string.length == 0
       word.chars.each {|letter|
         puts letter
         if letter.match(/aeiouAEIOU/)
