@@ -4,6 +4,8 @@ class PigLatinizer
   end
 
   def piglatinize(word) #words
+    #array = words.split(' ')
+    #array.each {|word|
     string = ""
     foundVowel = false
     word.chars.each {|letter|
@@ -24,7 +26,7 @@ class PigLatinizer
 
     first = word[0..string.length-1]
     following = word[string.length..-1]
-
+    
     if first.match(/[aeiouAEIOU]/)
       word = first + following + "way"
     else
