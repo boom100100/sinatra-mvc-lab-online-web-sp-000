@@ -10,7 +10,7 @@ class PigLatinizer
     foundVowel = false
     word.chars.each {|letter|
       puts "No vowels: " + letter
-      if !letter.match(/aeiouAEIOU/)
+      if !letter.match(/[aeiouAEIOU]/)
         string = string + letter
       else
         foundVowel = true
