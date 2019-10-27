@@ -7,14 +7,14 @@ class PigLatinizer
     #array = @words.split(" ")
     #array.each {|word|
     string = ""
-    word.each {|letter|
+    word.chars.each {|letter|
       puts letter
       if !letter.match(/aeiouAEIOU/)
         string = string + letter
       end
     }
     if string.length = 0
-      word.each {|letter|
+      word.chars.each {|letter|
         puts letter
         if letter.match(/aeiouAEIOU/)
           string = string + letter
