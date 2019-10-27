@@ -24,7 +24,7 @@ class PigLatinizer
 
     first = word[0..string.length-1]
     following = word[string.length..-1]
-    
+
     if first.match(/[aeiouAEIOU]/)
       word = first + following + "way"
     else
