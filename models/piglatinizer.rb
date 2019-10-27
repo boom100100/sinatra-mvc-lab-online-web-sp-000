@@ -43,7 +43,7 @@ class PigLatinizer
 
     }
     puts resultArray
-    sentence = array.join(" ")
+    sentence = resultArray.join(" ")
     sentence
   end
 
