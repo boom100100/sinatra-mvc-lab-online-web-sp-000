@@ -34,7 +34,7 @@ class PigLatinizer
       word = following + first + "ay"
     end
     }
-    array.join(" ")
-    array
+    sentence = array.join(" ")
+    sentence
   end
 end
