@@ -3,7 +3,7 @@ class PigLatinizer
   def initialize
   end
 
-  def piglatinize(words)
+  def piglatinize(word)
     #array = words.split(' ')
     #array.each {|word|
     string = ""
