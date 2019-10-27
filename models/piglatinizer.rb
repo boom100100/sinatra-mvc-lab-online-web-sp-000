@@ -14,7 +14,14 @@ class PigLatinizer
       end
     }
     if string.length = 0
+      word.each {|letter|
+        puts letter
+        if letter.match(/aeiouAEIOU/)
+          string = string + letter
+        end
+      }
     end
+    
       first = word[0]
       puts first
       following = word[1..-1]
