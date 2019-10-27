@@ -13,6 +13,8 @@ class PigLatinizer
         string = string + letter
       end
     }
+    if string.length = 0
+    end
       first = word[0]
       puts first
       following = word[1..-1]
