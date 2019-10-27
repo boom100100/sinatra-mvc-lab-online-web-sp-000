@@ -10,9 +10,7 @@ class PigLatinizer
 
     array.each {|word|
       puts word
-      word.chars.each {|letter|
-        puts letter
-      }
+      
 
     string = ""
     foundVowel = false
