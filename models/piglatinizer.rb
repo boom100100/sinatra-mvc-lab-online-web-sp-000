@@ -3,9 +3,9 @@ class PigLatinizer
   def initialize
   end
 
-  def piglatinize(word)
-    #array = @words.split(" ")
-    #array.each {|word|
+  def piglatinize(words)
+    array = @words.split(" ")
+    array.each {|word|
     string = ""
     foundVowel = false
     word.chars.each {|letter|
@@ -37,6 +37,6 @@ class PigLatinizer
     else
       word = following + first + "ay"
     end
-    #}
+    }
   end
 end
