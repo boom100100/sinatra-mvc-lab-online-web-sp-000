@@ -1,4 +1,4 @@
-class piglatinizer
+class pigLatinizer
   def initialize(sentence)
   end
 end
