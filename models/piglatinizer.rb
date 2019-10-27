@@ -8,14 +8,14 @@ class PigLatinizer
     #array.each {|word|
     string = ""
     word.chars.each {|letter|
-      puts letter
+      puts "No vowels: " + letter
       if !letter.match(/aeiouAEIOU/)
         string = string + letter
       end
     }
     if string.length == 0
       word.chars.each {|letter|
-        puts letter
+        puts "Vowels: " + letter
         if letter.match(/aeiouAEIOU/)
           string = string + letter
         end
@@ -23,7 +23,7 @@ class PigLatinizer
     end
 
     first = string
-    puts first
+    puts "First: " + first
     following = word[first.length-1..-1]
     puts following
       #following.slice!(0, 1)
