@@ -7,10 +7,14 @@ class PigLatinizer
     #array = @words.split(" ")
     #array.each {|word|
     string = ""
+    foundVowel = false
     word.chars.each {|letter|
       puts "No vowels: " + letter
       if !letter.match(/aeiouAEIOU/)
         string = string + letter
+      else
+        foundVowel = true
+        break
       end
     }
     if string.length == 0
